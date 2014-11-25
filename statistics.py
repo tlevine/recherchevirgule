@@ -9,7 +9,7 @@ stats = [
     s.gmean,
 ] + [lambda v: getattr(v, name)() for name in names]
 
-def features(vector):
+def summarize(vector):
     '''
     data vector -> features-of-data vector
 
