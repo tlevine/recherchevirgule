@@ -22,4 +22,4 @@ def load(data):
             else:
                 columns[i].append(floatcell)
 
-    return map(numpy.array, columns)
+    return map(summarize, columns)
